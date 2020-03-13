@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Cтартовая html-страница веб-приложения -->
+<html>
+    <head>
+        <title>Стартовая страница канкулятора</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<CENTER>
+	</BR>
+
+	</BR>
+	
+	<!-- Форма сложения -->
+        <form action="Calc" method="Get">
+            <p>Первое число:
+                <!-- Поле ввода сообщения -->
+                <input type="text" name="a1" size="10"/>
+            </p>
+		<p>Второе число:
+                <!-- Поле ввода сообщения -->
+                <input type="text" name="a2" size="10"/>
+            </p>
+            <!-- Кнопка отправки данных на сервер -->
+            <input type="submit" value="Summ"/>
+        </form>
+              <!-- Форма умножения -->  	
+		<form action="Calc" method="POST">
+            <p>Первое число:
+                <!-- Поле ввода сообщения -->
+                <input type="text" name="b1" size="10"/>
+            </p>
+		<p>Второе число:
+                <!-- Поле ввода сообщения -->
+                <input type="text" name="b2" size="10"/>
+            </p>
+            <!-- Кнопка отправки данных на сервер -->
+            <input type="submit" value="Multiply"/>
+        </form>
+ 	
+	</BR>
+        <!-- Форма, сброса данных -->
+        <form action="index.html" >
+            <input type="submit" value="RESET"/>
+        </form> 
+
+       </CENTER>
+    </body>
+</html>
